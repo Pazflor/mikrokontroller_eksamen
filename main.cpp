@@ -68,6 +68,9 @@ string createAlarm() {
 
     cout << "00:00" << endl;
 
+    // variablen c tar input som placeholder for knapper
+    // 1 = inkrementere gjeldene tall
+    // 0 = gå til neste tall
     int c;
     while (true) {
         cin >> c;
@@ -92,6 +95,5 @@ string createAlarm() {
         sprintf(buffer, "%.2d:%.2d", h, m);
         cout << buffer << endl;
     }
-
     return buffer;
 }
