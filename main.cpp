@@ -19,11 +19,22 @@ int main ()
     return 0;
 }
 
-// Hardkodet epoch
+// Replace with API
 time_t epoch = 1650701756;
 struct tm ts;
 char buf[80];
 char fakeAlarm[] = "Sat 23 Apr 10:16:00";
+
+/* For Mbed OS
+ * set_time(epoch);
+ *
+ * while (true) {
+ *     time_t seconds = time(NULL);
+ *     char buffer[80];
+ *     strftime(buf, sizeof(buf), "%a %d %b %H:%M:%S", localtime(&seconds));
+ *     printf("\n%s", buf);
+ * }
+ */
 
 void startClock() {
     while (true) {
