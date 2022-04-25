@@ -6,73 +6,26 @@
 
 using namespace std;
 
-void startClock();
-bool checkAlarm();
-string createAlarm(char extraMinutes);
-void triggerAlarm();
+string createAlarm();
 void snooze();
 
 struct Clock {
-    bool alarmEnabled;
-    bool alarmRinging;
+    string long_time;
+    string short_time;
+    string alarm = "";
 };
 
 int main ()
 {
-    setenv("TZ", "UTC-2", 1);
-    tzset();
-
-    startClock();
-
-    // string alarm = createAlarm();
-
     return 0;
 }
 
-// Replace with API
-time_t epoch = 1650701756;
-struct tm ts;
-char buf[80];
-char fakeAlarm[] = "Sat 23 Apr 10:16:00";
-
-/* For Mbed OS
- * set_time(epoch);
- *
- * while (true) {
- *     time_t seconds = time(NULL);
- *     char buffer[80];
- *     strftime(buf, sizeof(buf), "%a %d %b %H:%M:%S", localtime(&seconds));
- *     printf("\n%s", buf);
- * }
- */
-
-void startClock() {
-    while (true) {
-        if (checkAlarm()) {
-            triggerAlarm();
-        }
-        epoch++;
-        ts = *localtime(&epoch);
-        strftime(buf, sizeof(buf), "%a %d %b %H:%M:%S", &ts);
-        printf("%s\n", buf);
-        sleep(1);
-    }
-}
-
-bool checkAlarm() {
-    if (!(strcmp(buf, fakeAlarm))) {
-        return true;
-    }
-}
-
-string createAlarm(char extraMinutes) {
+void createAlarm(Clock clock) {
     char buffer[50];
 
     int h = 0;
     int m = 0;
     int i = 0;
-
-    cout << "00:00" << endl;
 
     // variablen c tar input som placeholder for knapper
     // 1 = inkrementere gjeldene tall
@@ -99,23 +52,19 @@ string createAlarm(char extraMinutes) {
             break;
         }
         sprintf(buffer, "%.2d:%.2d", h, m);
-
-
-        buffer[strlen(buffer) - 1] = extraMinutes;
-        cout << buffer << endl;
     }
-    return buffer;
+    clock.alarm = buffer;
 }
 
-string removeAlarm() {
-    return "";
-}
-
-void snooze() {
+void snooze(Clock clock) {
     cout << "Snoozed for 5 minutes" << endl;
-    createAlarm(5);
+    sleep(300);
+    clock.alarm = clock.short_time;
 }
 
+void removeAlarm(Clock clock) {
+    clock.alarm = "";
+}
 
 // MBED JSON WEATHER PARSING
 /* ****************************************
