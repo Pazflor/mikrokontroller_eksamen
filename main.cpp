@@ -1,6 +1,6 @@
 #include <iostream>
-#include <stdio.h>
-#include <time.h>
+#include <cstdio>
+#include <ctime>
 #include <unistd.h>
 #include <string>
 
@@ -8,16 +8,23 @@ using namespace std;
 
 void startClock();
 bool checkAlarm();
-string createAlarm();
+string createAlarm(char extraMinutes);
+void triggerAlarm();
+void snooze();
+
+struct Clock {
+    bool alarmEnabled;
+    bool alarmRinging;
+};
 
 int main ()
 {
     setenv("TZ", "UTC-2", 1);
     tzset();
 
-    // startClock();
+    startClock();
 
-    string alarm = createAlarm();
+    // string alarm = createAlarm();
 
     return 0;
 }
@@ -42,7 +49,7 @@ char fakeAlarm[] = "Sat 23 Apr 10:16:00";
 void startClock() {
     while (true) {
         if (checkAlarm()) {
-            break;
+            triggerAlarm();
         }
         epoch++;
         ts = *localtime(&epoch);
@@ -54,12 +61,11 @@ void startClock() {
 
 bool checkAlarm() {
     if (!(strcmp(buf, fakeAlarm))) {
-        cout << "Ring ring ring" << endl;
         return true;
     }
 }
 
-string createAlarm() {
+string createAlarm(char extraMinutes) {
     char buffer[50];
 
     int h = 0;
@@ -93,7 +99,48 @@ string createAlarm() {
             break;
         }
         sprintf(buffer, "%.2d:%.2d", h, m);
+
+
+        buffer[strlen(buffer) - 1] = extraMinutes;
         cout << buffer << endl;
     }
     return buffer;
 }
+
+string removeAlarm() {
+    return "";
+}
+
+void snooze() {
+    cout << "Snoozed for 5 minutes" << endl;
+    createAlarm(5);
+}
+
+
+// MBED JSON WEATHER PARSING
+/* ****************************************
+#include "mbed.h"
+#include <json.hpp>
+
+using json = nlohmann::json;
+
+struct Weather {
+    string desc;
+    float celsius;
+};
+
+Weather currWeather;
+
+void parse_json_data(char *input_data) {
+    json obj = json::parse(input_data, nullptr, false);
+
+    if (obj["weather"]["description"].is_string()) {
+        currWeather.desc = obj["weather"]["description"];
+    }
+
+    if (obj["main"]["temp"].is_number()) {
+        currWeather.celsius = 273.15 - obj["main"]["temp"];
+    }
+}
+*/
+// ****************************************
