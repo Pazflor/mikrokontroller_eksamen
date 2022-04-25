@@ -12,7 +12,7 @@ void snooze();
 struct Clock {
     string long_time;
     string short_time;
-    string alarm = "";
+    string alarm;
 };
 
 int main ()
