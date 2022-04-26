@@ -1,0 +1,46 @@
+{
+  "coord": {
+    "lon": 8.5948,
+    "lat": 58.3447
+  },
+  "weather": [
+    {
+      "id": 800,
+      "main": "Clear",
+      "description": "clear sky",
+      "icon": "01d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 284.01,
+    "feels_like": 282.77,
+    "temp_min": 284.01,
+    "temp_max": 285.41,
+    "pressure": 1017,
+    "humidity": 62,
+    "sea_level": 1017,
+    "grnd_level": 1013
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 7.94,
+    "deg": 66,
+    "gust": 8.46
+  },
+  "clouds": {
+    "all": 6
+  },
+  "dt": 1650967282,
+  "sys": {
+    "type": 1,
+    "id": 1617,
+    "country": "NO",
+    "sunrise": 1650944675,
+    "sunset": 1650999720
+  },
+  "timezone": 7200,
+  "id": 3155041,
+  "name": "Grimstad",
+  "cod": 200
+}

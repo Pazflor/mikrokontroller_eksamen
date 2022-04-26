@@ -3,6 +3,8 @@
 #include <unistd.h>
 #include <string>
 
+#include "json_parse.h"
+
 using namespace std;
 
 struct Clock {
@@ -12,13 +14,23 @@ struct Clock {
 };
 
 void createAlarm(Clock clock);
+void removeAlarm(Clock clock);
 void snooze();
 
 int main ()
 {
+    json_parse jp;
+    jp.parser();
+
+    /*
     Clock clock;
 
     createAlarm(clock);
+
+    sleep(3);
+
+    removeAlarm(clock);
+     */
 
     return 0;
 }
@@ -64,6 +76,7 @@ void createAlarm(Clock clock) {
 
 void removeAlarm(Clock clock) {
     clock.alarm = "";
+    cout << "Alarm removed" << endl;
 }
 
 void snooze(Clock clock) {
