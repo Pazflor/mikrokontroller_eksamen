@@ -1,13 +1,9 @@
 #include <iostream>
 #include <cstdio>
-#include <ctime>
 #include <unistd.h>
 #include <string>
 
 using namespace std;
-
-string createAlarm();
-void snooze();
 
 struct Clock {
     string long_time;
@@ -15,20 +11,28 @@ struct Clock {
     string alarm;
 };
 
+void createAlarm(Clock clock);
+void snooze();
+
 int main ()
 {
+    Clock clock;
+
+    createAlarm(clock);
+
     return 0;
 }
 
 void createAlarm(Clock clock) {
     char buffer[50];
-
     int h = 0;
     int m = 0;
     int i = 0;
 
+    cout << "00:00" << endl;
+
     // variablen c tar input som placeholder for knapper
-    // 1 = inkrementere gjeldene tall
+    // 1 = inkrementere gjeldende tall
     // 0 = gå til neste tall
     int c;
     while (true) {
@@ -52,18 +56,20 @@ void createAlarm(Clock clock) {
             break;
         }
         sprintf(buffer, "%.2d:%.2d", h, m);
+        cout << buffer << endl;
     }
     clock.alarm = buffer;
+    cout << "Alarm set at " << clock.alarm << endl;
+}
+
+void removeAlarm(Clock clock) {
+    clock.alarm = "";
 }
 
 void snooze(Clock clock) {
     cout << "Snoozed for 5 minutes" << endl;
     sleep(300);
     clock.alarm = clock.short_time;
-}
-
-void removeAlarm(Clock clock) {
-    clock.alarm = "";
 }
 
 // MBED JSON WEATHER PARSING
