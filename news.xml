@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet title="XSL_formatting" type="text/xsl" href="/shared/bsp/xsl/rss/nolsol.xsl"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title><![CDATA[BBC News - World]]></title>
+        <description><![CDATA[BBC News - World]]></description>
+        <link>https://www.bbc.co.uk/news/</link>
+        <image>
+            <url>https://news.bbcimg.co.uk/nol/shared/img/bbc_news_120x60.gif</url>
+            <title>BBC News - World</title>
+            <link>https://www.bbc.co.uk/news/</link>
+        </image>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Tue, 26 Apr 2022 10:38:13 GMT</lastBuildDate>
+        <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see http://news.bbc.co.uk/2/hi/help/rss/4498287.stm for terms and conditions of reuse.]]></copyright>
+        <language><![CDATA[en-gb]]></language>
+        <ttl>15</ttl>
+        <item>
+            <title><![CDATA[War in Ukraine: The village with Russia and Belarus on its doorstep]]></title>
+            <description><![CDATA[Yogita Limaye visits a Ukrainian village on the border of Russia and Belarus that has been torn apart by war.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-61220296?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-61220296</guid>
+            <pubDate>Tue, 26 Apr 2022 05:03:36 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Musk buys Twitter: What's changing? ]]></title>
+            <description><![CDATA[Questions have been raised over how the platform will change after being bought by the Tesla boss.]]></description>
+            <link>https://www.bbc.co.uk/news/business-61225355?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/business-61225355</guid>
+            <pubDate>Tue, 26 Apr 2022 06:53:30 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Alec Baldwin: Police release footage from set of Rust shooting]]></title>
+            <description><![CDATA[Authorities also released crime scene photos and interviews with witnesses, including Mr Baldwin's.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-61226637?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-61226637</guid>
+            <pubDate>Tue, 26 Apr 2022 07:12:34 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[France election: Macron faces immediate challenges to power after victory]]></title>
+            <description><![CDATA[The re-elected French president has to focus on a new set of problems, beginning with a general election.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-61214460?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-61214460</guid>
+            <pubDate>Mon, 25 Apr 2022 16:44:50 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[North Korea: Kim Jong-un vows to step up nuclear weapons programme]]></title>
+            <description><![CDATA[North Korea's leader spoke at a military parade which also saw banned missiles displayed.]]></description>
+            <link>https://www.bbc.co.uk/news/world-australia-61225675?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-australia-61225675</guid>
+            <pubDate>Tue, 26 Apr 2022 10:01:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Nato expansion: Finland and Sweden set to announce plans to join bloc]]></title>
+            <description><![CDATA[The US and UK will reportedly provide security support to the nations during the application process.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-61226640?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-61226640</guid>
+            <pubDate>Tue, 26 Apr 2022 09:49:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Donald Trump held in contempt in New York legal battle]]></title>
+            <description><![CDATA[The former president will be fined $10,000 (£7,850) every day until he turns over requested files.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-61221860?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-61221860</guid>
+            <pubDate>Mon, 25 Apr 2022 18:23:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Johnny Depp blames 'burn Amber' text on Monty Python]]></title>
+            <description><![CDATA[Mr Depp defends messages sent to fellow actor Paul Bettany saying he would burn his then-girlfriend.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-61221859?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-61221859</guid>
+            <pubDate>Mon, 25 Apr 2022 20:22:02 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Sex for Water in Kenya: What price are women and girls paying?]]></title>
+            <description><![CDATA[Women and girls are exposed to sexual violence as private vendors control the water supply in Kenya.]]></description>
+            <link>https://www.bbc.co.uk/news/world-africa-61216620?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-africa-61216620</guid>
+            <pubDate>Mon, 25 Apr 2022 23:02:57 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Bishop Evans: Body of guard found after he tried to save migrants]]></title>
+            <description><![CDATA[Bishop Evans jumped into the Rio Grande on the US-Mexico border when he saw two people in distress.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-61218421?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-61218421</guid>
+            <pubDate>Tue, 26 Apr 2022 03:04:05 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Osman Kavala: Turkish activist sentenced to life in prison]]></title>
+            <description><![CDATA[Osman Kavala is found guilty on coup plot charges in a case criticised as politically motivated.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-61218241?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-61218241</guid>
+            <pubDate>Tue, 26 Apr 2022 02:04:04 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[How a Japanese boat trip ended in tragedy]]></title>
+            <description><![CDATA[A catalogue of errors appears to have led to the sinking of a boat carrying sightseers off northern Japan.]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-61212761?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-asia-61212761</guid>
+            <pubDate>Tue, 26 Apr 2022 00:24:20 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Viola Davis responds to critics of her Michelle Obama portrayal]]></title>
+            <description><![CDATA[The actress had been criticised by viewers for overly pursing her lips when playing Michelle Obama.]]></description>
+            <link>https://www.bbc.co.uk/news/entertainment-arts-61213761?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/entertainment-arts-61213761</guid>
+            <pubDate>Mon, 25 Apr 2022 23:07:18 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Ukraine: Facing the Russian Army on the front line in Donbas]]></title>
+            <description><![CDATA[Ukrainian forces have been holding the line in Donbas since 2014, but what was sporadic fighting has now turned into a full-blown war.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-61217528?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-61217528</guid>
+            <pubDate>Mon, 25 Apr 2022 19:00:23 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Australia election: Why is there compulsory voting?]]></title>
+            <description><![CDATA[It is one of the only English-speaking nations to have mandatory voting, and people widely support it.]]></description>
+            <link>https://www.bbc.co.uk/news/world-australia-61186402?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-australia-61186402</guid>
+            <pubDate>Mon, 25 Apr 2022 23:08:39 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[How high-profile scientists felt tricked by group denying climate change]]></title>
+            <description><![CDATA[Politicians and scientists say they were duped by an organisation making false claims about global warming.]]></description>
+            <link>https://www.bbc.co.uk/news/blogs-trending-61166339?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/blogs-trending-61166339</guid>
+            <pubDate>Mon, 25 Apr 2022 23:13:50 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Will Taiwan's banks stay stuck in a '1980s' time warp?]]></title>
+            <description><![CDATA[How the pandemic may have jolted an old-fashioned banking industry to make changes.]]></description>
+            <link>https://www.bbc.co.uk/news/business-60918337?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/business-60918337</guid>
+            <pubDate>Mon, 25 Apr 2022 23:10:20 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Alec Baldwin shooting: New video shows actor rehearsing with gun]]></title>
+            <description><![CDATA[In new footage, the actor is seen rehearsing with a gun on set moments before Halyna Hutchins' fatal injury.]]></description>
+            <link>https://www.bbc.co.uk/news/entertainment-arts-61227047?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/entertainment-arts-61227047</guid>
+            <pubDate>Tue, 26 Apr 2022 06:51:20 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[The Olympic hopeful turned bike-riding bank robber]]></title>
+            <description><![CDATA[When Tom Justice failed to make the Olympics he decided to use his cycling skills to rob banks instead.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-61192215?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-61192215</guid>
+            <pubDate>Sun, 24 Apr 2022 23:01:23 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Ethiopia's Lalibela struggles as war and Covid-19 keep tourists away]]></title>
+            <description><![CDATA[In the historic Ethiopian town of Lalibela, civil war and Covid-19 have left many without livelihoods.]]></description>
+            <link>https://www.bbc.co.uk/news/world-africa-61196572?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-africa-61196572</guid>
+            <pubDate>Sun, 24 Apr 2022 23:03:27 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[France election: 'Many voted to build a barricade against the far-right', says Macron]]></title>
+            <description><![CDATA[After becoming the first French president re-elected in 20 years, Emmanuel Macron told supporters he was "the president of all."]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-61211790?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-61211790</guid>
+            <pubDate>Sun, 24 Apr 2022 20:24:35 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Ukraine war: Celebrating Easter in the trenches outside Kyiv]]></title>
+            <description><![CDATA[Russian forces have moved away from Ukraine's capital, but those defending the city remain.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-61209550?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-61209550</guid>
+            <pubDate>Sun, 24 Apr 2022 12:40:56 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
