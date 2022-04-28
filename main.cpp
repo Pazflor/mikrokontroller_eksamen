@@ -4,6 +4,7 @@
 #include <string>
 
 #include "json_parse.h"
+#include "rss_reader.h"
 
 using namespace std;
 
@@ -19,8 +20,13 @@ void snooze();
 
 int main ()
 {
+    /*
     json_parse jp;
     jp.parser();
+     */
+
+    rss_reader r;
+    r.read();
 
     /*
     Clock clock;

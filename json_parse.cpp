@@ -38,5 +38,5 @@ void json_parse::parser() {
     const auto &main = obj["main"].GetObject();
     const auto temp = main["temp"].GetFloat() - 273.15;
 
-    printf("%s\n%.1f C degrees", desc.c_str(), temp);
+    printf("%s\n%.1f C degrees\n", desc.c_str(), temp);
 }
